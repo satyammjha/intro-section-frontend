@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+html {
+  display: inline-flex;
+}
+#phonemenu {display:flex;flex-direction:column;position: absolute;background-color: white;padding: 63px;margin-left: 105px;
+  height: 787px;    width: 222px;
+  display: none;}
+
+  #phonemenu #phonefeat{margin-bottom: 10px;font-size: 30px;}
+#phonefeatureclick{display:flex;flex-direction: column;margin-top: 35px;display: none;}
+#phonefeat{font-family: "Epilogue", sans-serif;color: hsl(0, 0%, 41%);font-size: 22px;}
+#phonecompanyclick{font-family: "Epilogue", sans-serif;color: hsl(0, 0%, 41%);font-size: 30px;margin-top: 15px;}
+#phonecompany{display: none;}
+#phonecareers{font-family: "Epilogue", sans-serif;color: hsl(0, 0%, 41%);font-size: 30px;margin-top: 15px;}
+#phonedownicon {
+  margin-left: -3px;
+  vertical-align: middle;
+  height: 10px;
+}
+#phonecompdownicon {
+  margin-left: 2px;
+  vertical-align: middle;
+  height: 10px;
+}
+#phonefeatdownicon {
+  margin-left: -3px;
+  vertical-align: middle;
+  height: 10px;
+}
+.phonefeatureitems{margin-left: 5px;}
+#phonefeatureicons{margin-right: 14px;}
+
+/*Navigation*/
+#navbar {
+  display: flex;
+  margin-top: 25px;
+}
+
+li {
+  display: block;
+  color: hsl(0, 1%, 53%);
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 25px;
+  margin-top: 14px;
+  color: hsl(0, 0%, 41%);
+  font-family: "Epilogue", sans-serif;}
+#phonecompany,#phoneabout{font-size: 30px;font-family: "Epilogue", sans-serif;color: hsl(0, 0%, 41%);margin-top: 15px;margin-bottom: 10px;}
+#menuicon {
+  background-size: 300px;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 500px;
+  display: none;
+}
+#navbar ul li {
+  list-style-type: none;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  display: flex;
+}
+li:hover {
+  color: hsl(0, 0%, 8%);
+}
+li {
+  display: block;
+  color: hsl(0, 1%, 53%);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#navright {
+  flex-direction: row;
+  margin-left: 30%;
+  font-family: "Epilogue", sans-serif;
+}
+#register {
+  margin-left: 80px;
+  padding: 14px 20px;
+  border: 1px solid hsl(0, 0%, 8%);
+  margin-top: -38px;
+  border-radius: 13px;
+  align-self: center;
+  font-family: "Epilogue", sans-serif;
+}
+.navlinks {
+  margin-left: 40px;
+  display: flex;
+  font-family: "Epilogue", sans-serif;
+}
+
+/*Dropdowns*/
+#drop {
+  display: flex;
+}
+#drop img {
+  margin-top: 4px;
+  height: 8px;
+  margin-left: 5px;
+}
+
+#features-dropdown {
+  display: none;
+  flex-direction: column;
+  padding: 25px 25px 15px 25px;
+  margin-left: 83px;
+  margin-top: 46px;
+  font-family: "Epilogue", sans-serif;
+  color: hsl(0, 0%, 41%);
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+  position: absolute;
+}
+#features-dropdown img {
+  margin-right: 10px;
+}
+#features-dropdown span {
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+}
+#features-dropdown span:hover {
+  color: hsl(0, 0%, 8%);
+}
+#companydrop {
+  display: flex;
+  flex-direction: column;
+}
+#companydropdown {
+  display: none;
+  flex-direction: column;
+  padding: 15px 10px;
+  margin-left: 40px;
+  margin-top: 52px;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+  font-family: "Epilogue", sans-serif;
+  position: absolute;
+}
+.compdroplist {
+  color: hsl(0, 0%, 41%);
+  margin: 5px;
+  cursor: pointer;
+}
+.compdroplist:hover {
+  color: hsl(0, 0%, 8%);
+}
+#featuresDropDownArrow,
+#companyDropdownArrow {
+  height: 12px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+/*Body*/
+#heading {
+  font-family: "Epilogue", sans-serif;
+  font-size: 60px;
+  margin-left: 135px;
+  margin-top: 23%;
+}
+#main p {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  color: hsl(0, 0%, 41%);
+  margin-left: 135px;
+}
+
+#btn {
+  padding: 18px 40px;
+  margin-left: 135px;
+  margin-top: 30px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Epilogue", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#clients {
+  margin-left: 135px;
+  margin-top: 65px;
+}
+.clientlogo {
+  margin: 20px;
+}
+#main {
+  display: flex;
+}
+
+#mainimage {
+  background-image: url("./images/image-hero-desktop.png");
+  background-size: 430px;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 480px) {
+  #main {
+    flex-direction: column-reverse;
+  }
+  #drop,
+  .navlinks,
+  #navright {
+    display: none;
+  }
+  #mainimage {
+    background-image: url("./images/image-hero-mobile.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 428px;
+    margin-left: -8px;
+    margin-top: 4%;
+  }
+  #heading {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 80px;
+    display: inline-block;
+  }
+  #heading br {
+    display: none;
+  }
+  #left p br {
+    display: none;
+  }
+  #main p {
+    font-size: 22px;
+
+    text-align: -webkit-center;
+    line-height: 30px;
+    margin-left: -12px;
+  }
+  #clients {
+    margin-left: -16px;
+    display: flex;
+  }
+  #btn {
+    padding: 21px 42px;
+    margin-left: 150px;
+    font-size: 20px;
+  }
+
+  #menuicon {
+    display: block;
+    height: 18px;
+    width: 35px;
+    float: right;
+    margin-left: 327px;}
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*phonemenucss*/
